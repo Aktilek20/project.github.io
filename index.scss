@@ -314,7 +314,6 @@ nav {
     justify-content: space-between;
     margin-inline-start: 24px;
     margin-inline-end: 24px;
-    margin-block-start: 23px;
     margin-block-end: 46px;
     padding-block-start: 23px;
 }
@@ -350,7 +349,7 @@ nav {
 .menu {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 28px;
 }
 
 .menu-item {
