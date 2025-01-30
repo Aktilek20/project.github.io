@@ -367,7 +367,7 @@ nav {
     margin-left: -4px;
 }
 
-.btn-danger:focus {
+.btn-danger:focus  {
     margin-left: 0px;
     color: var(--color-dark-gray);
 }
@@ -413,9 +413,14 @@ a {
     display: block;
 }
 .block-3{
-    display: block;
+    display: flex;
     margin-block-start: 40px;
 }
+
+.block-3__link{
+  margin-right: 7px;
+}
+
 .block-3__link:focus{
     color:var(--color-dark-gray);
 }
